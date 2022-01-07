@@ -1,4 +1,4 @@
-module com.example.sysproglabs {
+open module com.example.sysproglabs {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,6 +6,5 @@ module com.example.sysproglabs {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.sysproglabs to javafx.fxml;
     exports com.example.sysproglabs;
 }
